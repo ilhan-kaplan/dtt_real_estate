@@ -71,20 +71,6 @@ Widget estateListMethod(List<EstateModel> estateList) {
                           );
                         },
                       ),
-                      /*FadeInImage.assetNetwork(
-                        placeholder: 'assets/images/loading.gif',
-                        placeholderScale: 0.1,
-                        image: '${BaseURL.imageUrl}${estateList[index].image}',
-                        fit: BoxFit.cover,
-                        width: 90,
-                        height: 90,
-                      ),*/
-                      /*Image.network(
-                        '${BaseURL.imageUrl}${estateList[index].image}',
-                        fit: BoxFit.cover,
-                        width: 90,
-                        height: 90,
-                      ),*/
                     ),
                     const SizedBox(width: 20),
                     Expanded(
